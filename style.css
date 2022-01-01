@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Header Section */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgb(53, 83, 119, 0.4);
+    color: whitesmoke;
+    height: 10vh;
+}
+
+
+
+header img{
+    height: 100px;
+    width: 250px;
+    margin: 0px 0px 0px 9%;
+    
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul  li{
+    list-style-type: none;
+    margin: 10px 50px;
+    /* border: 2px solid black; */
+    padding: 8px 20px;
+    /* border-radius: 6px; */
+    font-size: 20px;
+    background-color: rgb(53, 83, 119);
+}
+
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar ul li:hover{
+    background-color: rgb(85, 85, 170);
+    color: whitesmoke;
+    
+}
+
+
+
+
+
+.btnn{
+    margin: 10px 30px;
+    border: 2px solid black;
+    padding: 8px 20px;
+    border-radius: 6px;
+    background-color: rgb(53, 83, 119);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btnn a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btnn:hover{
+    background-color: rgb(85, 85, 170) ;
+    cursor: pointer;
+}
+
+/* main section */
+
+.container1{
+    /* z-index: -1; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1::after{
+    content: '';
+    background: url('Images/bulb2.jfif') 
+        no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    
+}
+
+.small-container{
+
+    border: 2px solid rgb(8, 8, 8);
+    padding: 3%;
+    border-radius: 8px;
+    color: rgb(207, 196, 196) ;
+    background-color: rgba(7, 7, 7, 0.7);
+    
+}
+
+.small-container p{
+    font-size: 30px;
+
+}
+
+.small-container button{
+    margin: 10px 50px;
+    border: 2px solid black;
+    padding: 8px 20px;
+    border-radius: 6px;
+    background-color: rgb(53, 76, 131);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.small-container button:hover{
+    cursor: pointer;
+    background-color: rgb(85, 85, 170) ;
+}
+
+
+
+/* Other Products Section */
+
+#productDesc{
+    text-align: center;
+     font-size:30px;
+      padding-top:2%;
+      background-color: rgb(135, 164, 200);
+}
+
+#otherProducts{
+    display: flex;
+    padding-top: 2%;
+    background-color: rgb(135, 164, 200);
+    
+    
+
+}
+/* 
+#otherProducts::after{
+    content: '';
+    background: url('Images/bulb4.jfif') no-repeat center center/cover;
+    position: ;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    
+} */
+
+#otherProducts div{
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+
+.box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+.box h4{
+    font-size: 30px;
+    text-align: center;
+    margin: 2%;
+}
+
+.box img{
+    height: 400px;
+    width: 100%;
+}
+
+.box p{
+    font-size: 20px;
+    text-align: center;
+    margin: 2% 0%;
+}
+
+
+.box1{
+    flex: 1;
+    /* order: 3; */
+}
+.box2{
+    flex: 1;
+    /* order: 2; */
+
+}
+.box3{
+    flex: 1;
+    /* order: 1; */
+}
+
+
+
+/* Sign In  */
+
+
+
+
